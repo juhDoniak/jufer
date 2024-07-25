@@ -1,0 +1,47 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Estilo do cabeçalho */
+    .cabecalho {
+    background-color: #ffa7e2; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    }
+    .cabecalho-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .cabecalho-titulo {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 20px;
+    }
+    .cabecalho-lista {
+    list-style-type: none; /* Remove marcadores de lista */
+    display: flex;
+    }
+    .cabecalho-item {
+    margin-right: 10px; /* Espaçamento entre os itens da lista */
+    }
+    /* Estilo da introdução */
+    h2 {
+    font-size: 20px; /* Tamanho da fonte do título da introdução */
+    margin-top: 40px; /* Espaçamento superior aumentado */
+    }
+    p {
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.5; /* Altura da linha */
+    margin-bottom: 20px; /* Margem inferior para separar o parágrafo */
+    }
+    .imagem {
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top: 20px; /* Espaçamento superior para separar a imagem */
+    margin-bottom: 40px; /* Margem inferior para separar a imagem */
+    margin-left: auto; /* Centraliza a imagem horizontalmente */
+    margin-right: auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Permite definir margens automáticas */
+    }
